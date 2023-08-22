@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5q5jp5xmjcsb"]
+
+[ext_resource type="Script" path="res://Background.gd" id="1_rhux8"]
+[ext_resource type="Texture2D" uid="uid://cm0jxrwjkaput" path="res://Sunny Land Pack/sunny-land-phaser-project/sunny-land/assets/environment/back.png" id="2_x6qxg"]
+[ext_resource type="Texture2D" uid="uid://b2whggx4c4mro" path="res://Sunny Land Pack/sunny-land-phaser-project/sunny-land/assets/environment/middle.png" id="3_a0q1v"]
+
+[node name="Background" type="ParallaxBackground"]
+script = ExtResource("1_rhux8")
+
+[node name="Sky" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Back" type="Sprite2D" parent="Sky"]
+position = Vector2(576, 324)
+scale = Vector2(3, 2.7)
+texture = ExtResource("2_x6qxg")
+
+[node name="Plants" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(1232, 0)
+metadata/_edit_lock_ = true
+
+[node name="Middle" type="Sprite2D" parent="Plants"]
+position = Vector2(88, 464)
+texture = ExtResource("3_a0q1v")
+
+[node name="Middle2" type="Sprite2D" parent="Plants"]
+position = Vector2(264, 464)
+texture = ExtResource("3_a0q1v")
+
+[node name="Middle3" type="Sprite2D" parent="Plants"]
+position = Vector2(440, 464)
+texture = ExtResource("3_a0q1v")
+
+[node name="Middle4" type="Sprite2D" parent="Plants"]
+position = Vector2(616, 464)
+texture = ExtResource("3_a0q1v")
+
+[node name="Middle5" type="Sprite2D" parent="Plants"]
+position = Vector2(792, 464)
+texture = ExtResource("3_a0q1v")
+
+[node name="Middle6" type="Sprite2D" parent="Plants"]
+position = Vector2(968, 464)
+texture = ExtResource("3_a0q1v")
+
+[node name="Middle7" type="Sprite2D" parent="Plants"]
+position = Vector2(1144, 464)
+texture = ExtResource("3_a0q1v")
