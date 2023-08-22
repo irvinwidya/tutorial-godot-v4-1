@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dibcbtx5oy2nr"
+path="res://.godot/imported/platformer_level03.mp3-44ef1863964b21ce847e55cc121b65da.mp3str"
+
+[deps]
+
+source_file="res://Sunny Land Pack/Sunny-land-files/Sunny-land-assets-files/Sound/platformer_level03.mp3"
+dest_files=["res://.godot/imported/platformer_level03.mp3-44ef1863964b21ce847e55cc121b65da.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
