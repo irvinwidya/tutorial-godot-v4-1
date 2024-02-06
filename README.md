@@ -5,7 +5,7 @@ Game Note:
 - When Player is dead:
 	- return to Main Scene
 	- Player HP is reset
-	- Gold amount is decreased by 10 (decreased to 0 if previous amount is less than 10)
+	- Gold amount is decreased by 10 (decreased to 0 if less than 10)
 
 Basic Game Development
 - Scene and Node Management
@@ -23,4 +23,7 @@ Basic Game Development
 	- When Idle, Jump, Death, or Move/Run
 - World Collision
 - Character Movement
+	- `LeftArrow`: Move left
+	- `RightArrow`: Move right
+	- `Spacebar`: Jump
 - Simple save and load game state
